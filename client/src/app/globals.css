@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  font-style: italic;
+  color: red;
+}
+
+.bgcolor {
+  background: linear-gradient(45deg, red, black, black, red);
+}
+
+.btn {
+  padding: 10px 30px;
+  margin: 15px;
+  border-radius: 10px;
+  transition: 0.5s;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  border: none;
+}
+
+.btn:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.red {
+  background: red;
+  color: white;
+}
+
+.green {
+  background: green;
+  color: white;
+}
+
+.text2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text {
+  font-family: 'Courier New', Courier, monospace;
+
+}
