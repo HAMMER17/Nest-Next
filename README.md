@@ -1,6 +1,10 @@
 # Welcome My Project
-<img src='https://ahorasomos.izertis.com/solidgear/wp-content/uploads/2019/12/nest-1.png' height='270' width='370'>
-<img src='https://sdtimes.com/wp-content/uploads/2023/10/next-490x276.png' height='270' width='370'>
+<div className=' flex'>
+<img src='https://ahorasomos.izertis.com/solidgear/wp-content/uploads/2019/12/nest-1.png' height='250' width='350'>
+
+<img src='https://sdtimes.com/wp-content/uploads/2023/10/next-490x276.png' height='250' width='350'>
+</div>
+
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
