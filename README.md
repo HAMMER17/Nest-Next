@@ -1,6 +1,6 @@
 # Welcome My Project
-<div className=' flex'>
-<img src='https://ahorasomos.izertis.com/solidgear/wp-content/uploads/2019/12/nest-1.png' height='250' width='350'>
+<div className=' flex justify-center items-center m-5'>
+<img src='https://ahorasomos.izertis.com/solidgear/wp-content/uploads/2019/12/nest-1.png' height='300' width='350'>
 
 <img src='https://sdtimes.com/wp-content/uploads/2023/10/next-490x276.png' height='250' width='350'>
 </div>
