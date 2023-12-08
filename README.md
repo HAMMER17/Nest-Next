@@ -1,9 +1,11 @@
 # Welcome My Project
 <div className=' flex justify-center items-center m-5'>
-<img src='https://ahorasomos.izertis.com/solidgear/wp-content/uploads/2019/12/nest-1.png' height='300' width='350'>
+<img src='https://ahorasomos.izertis.com/solidgear/wp-content/uploads/2019/12/nest-1.png' height='250' width='400'>
 
 <img src='https://sdtimes.com/wp-content/uploads/2023/10/next-490x276.png' height='250' width='350'>
 </div>
+
+### Used Technology
 
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
