@@ -4,7 +4,7 @@
 
 a {
   font-style: italic;
-  color: red;
+  color: blue;
 }
 
 .bgcolor {
@@ -43,4 +43,13 @@ a {
 .text {
   font-family: 'Courier New', Courier, monospace;
 
+}
+
+.p {
+  color: red;
+}
+
+.image {
+  height: calc(100vh - 80px);
+  background: no-repeat url('../images/blocklist.jpeg');
 }

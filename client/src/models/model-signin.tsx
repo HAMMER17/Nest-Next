@@ -9,15 +9,17 @@ export function SingInMutation() {
     email: string
     password: string
   }
-  const { register, handleSubmit, formState: { errors }, } = useForm<Inputs>()
+  const { register, handleSubmit, } = useForm<Inputs>()
   const signMutation = useMutation({
     mutationFn: authControllerSignIn,
     onSuccess() {
       router.push('/')
     }
   })
+  const errorMessage = signMutation.error ? "Ошибка входа" : undefined;
   return {
     register,
-    HandleSubmit: handleSubmit((data) => signMutation.mutate(data))
+    HandleSubmit: handleSubmit((data) => signMutation.mutate(data)),
+    errorMessage
   }
 }
