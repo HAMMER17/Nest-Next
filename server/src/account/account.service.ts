@@ -17,6 +17,6 @@ export class AccountService {
     return this.db.account.findUniqueOrThrow({ where: { ownerId: userId } })
   }
   async pacthAccount(userId: number, pacth: AccountPacth) {
-    return this.db.account.update({ where: { ownerId: userId }, data: { ...pacth } })
+    return await this.db.account.update({ where: { ownerId: userId }, data: { ...pacth }, })
   }
 }

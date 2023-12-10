@@ -7,10 +7,11 @@ export const apiInstans = axios.create({
     'Content-Type': 'application/json'
   }
 })
-export const createInstance = <T>(config: AxiosRequestConfig, options?: AxiosRequestConfig): Promise<T> => {
-  return apiInstans({
+export const createInstance = async <T>(config: AxiosRequestConfig, options?: AxiosRequestConfig): Promise<T> => {
+  const res = await apiInstans({
     ...config, ...options
-  }).then(res => res.data)
+  });
+  return res.data;
 }
 export type BodyType<Data> = Data
 export type TypeError<Error> = AxiosError<Error>

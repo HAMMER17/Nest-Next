@@ -1,9 +1,5 @@
 import block from '../images/b.jpeg'
-
-
 import UiButtonOut from './ui-buttonout'
-import { useQuery } from '@tanstack/react-query'
-import { authControllerGetSession } from '@/shared/api/generate'
 import Image from 'next/image'
 import { useSessionQuery } from '@/entities/session'
 

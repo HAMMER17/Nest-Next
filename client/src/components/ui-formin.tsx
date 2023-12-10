@@ -8,7 +8,7 @@ export default function UiInputIn() {
   const { register, HandleSubmit, errorMessage } = SingInMutation()
 
   return (
-    <form className=' w-1/3 p-10 flex flex-col items-center rounded-xl text-white border border-white bgcolor'
+    <form className=' w-1/2 p-10 flex flex-col items-center rounded-xl text-white border border-white bgcolor'
       onSubmit={HandleSubmit} >
       <h1 className=' text-2xl font-mono'>Login</h1>
       <label className='m-2 text2' id='email'>Email</label>
