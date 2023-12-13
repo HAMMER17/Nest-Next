@@ -10,7 +10,7 @@ export function HomePage() {
     <main className='bg-black overflow-hidden'>
       <UiHeader />
       <div className='flex items-center justify-around image'>
-        <UiSpinner />
+        {/* <UiSpinner /> */}
         <UiBlockList />
 
       </div>
